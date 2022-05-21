@@ -9,7 +9,7 @@ This is the link for the dataset - https://archive.ics.uci.edu/ml/machine-learni
 
 C) Within 80 words summarize why you chose the particular algorithm in question A.  
 
-** On testing the given regression with other regression types we found that its evaluation score was highest among all(We can check this by using following code snippet for every regression model and comparing there evaluating score:
+**On testing the given regression with other regression types we found that its evaluation score was highest among all(We can check this by using following code snippet for every regression model and comparing there evaluating score:
 from sklearn.metrics import r2_score
 r2_score(y_test, y_pred))
 Hence random forest regression is used for the non-linear dataset chosen above.**
